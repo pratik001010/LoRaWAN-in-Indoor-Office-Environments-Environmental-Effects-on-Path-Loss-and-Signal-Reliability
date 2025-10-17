@@ -4,7 +4,7 @@
 
 ---
 
-## 📘 Overview  
+##  Overview  
 This project investigates how **indoor environmental conditions**—walls, humidity, CO₂, PM₂.₅, pressure, and temperature—affect **LoRaWAN signal reliability and path loss**.  
 It combines **data collection**, **machine learning**, and **real-time visualization** into a unified IoT analysis pipeline.
 
@@ -14,7 +14,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-## 🎯 Objectives  
+##  Objectives  
 - Evaluate **LoRaWAN performance** under various indoor conditions.  
 - Build supervised ML models (MLR, RF, XGBoost) for **path-loss prediction**.  
 - Create a **real-time Flutter + MQTT dashboard** for signal monitoring.  
@@ -22,7 +22,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-## 🧩 Experimental Setup  
+##  Experimental Setup  
 - **Location:** Multi-room office (LOS + NLOS)  
 - **Band:** EU868  **Period:** 4 months (≈ 1.3 M samples)  
 - **Interval:** 1 sample/min  **Device height:** 0.8 m  **Gateway:** central (1 m)  
@@ -35,7 +35,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-### 🔧 Devices Used
+###  Devices Used
 
 #### End Devices (ED0–ED5)
 | Component | Description |
@@ -57,7 +57,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-### 📍 Deployment Layout
+### Deployment Layout
 | Device | Distance (m) | Brick Walls | Wooden Partitions |
 |---------|--------------|-------------|-------------------|
 | ED0 | 10 | 0 | 0 |
@@ -69,7 +69,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-## 🤖 Machine Learning Framework  
+##  Machine Learning Framework  
 
 ![](https://github.com/pratik001010/LoRaWAN-in-Indoor-Office-Environments-Environmental-Effects-on-Path-Loss-and-Signal-Reliability/blob/c49f70b647063cd5e6f3f6ec71f7535e0c2b9895/lora/page11.png)  
 *Decision-Tree, Random Forest & XGBoost overview.*
@@ -111,7 +111,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-## 🌐 IoT Architecture  
+##  IoT Architecture  
 ![](https://github.com/pratik001010/LoRaWAN-in-Indoor-Office-Environments-Environmental-Effects-on-Path-Loss-and-Signal-Reliability/blob/c49f70b647063cd5e6f3f6ec71f7535e0c2b9895/lora/page19.png)
 
 **Layers**
@@ -125,7 +125,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-## ⚙️ Implementation Steps  
+##  Implementation Steps  
 ![](https://github.com/pratik001010/LoRaWAN-in-Indoor-Office-Environments-Environmental-Effects-on-Path-Loss-and-Signal-Reliability/blob/c49f70b647063cd5e6f3f6ec71f7535e0c2b9895/lora/page22.png)
 
 1️⃣ **Wireframing (Figma)** – screen flow design  
@@ -136,7 +136,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-## 🧠 Results Demo  
+##  Results Demo  
 
 **Dashboard Login**  
 ![](https://github.com/pratik001010/LoRaWAN-in-Indoor-Office-Environments-Environmental-Effects-on-Path-Loss-and-Signal-Reliability/blob/c49f70b647063cd5e6f3f6ec71f7535e0c2b9895/lora/appdesign.gif)
@@ -146,7 +146,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-## 🚀 Future Scope – What Comes Next  
+##  Future Scope – What Comes Next  
 ![](https://github.com/pratik001010/LoRaWAN-in-Indoor-Office-Environments-Environmental-Effects-on-Path-Loss-and-Signal-Reliability/blob/c49f70b647063cd5e6f3f6ec71f7535e0c2b9895/lora/page26.png)
 ![](https://github.com/pratik001010/LoRaWAN-in-Indoor-Office-Environments-Environmental-Effects-on-Path-Loss-and-Signal-Reliability/blob/c49f70b647063cd5e6f3f6ec71f7535e0c2b9895/lora/page27.png)
 
@@ -160,7 +160,7 @@ It combines **data collection**, **machine learning**, and **real-time visualiza
 
 ---
 
-## 🛠️ Getting Started  
+##  Getting Started  
 ### Prerequisites  
 - TTN App + Registered Devices  
 - MQTT Credentials  
@@ -197,7 +197,7 @@ python distill_to_tflite.py
 
 ---
 
-## ✅ Key Outcomes  
+##  Key Outcomes  
 - Indoor environment strongly impacts RSSI / SNR variation.  
 - XGBoost model achieved **R² = 0.95** with RMSE ≈ 3.8 dB.  
 - Flutter dashboard enabled **real-time visualization** and user interaction.  
@@ -205,7 +205,7 @@ python distill_to_tflite.py
 
 ---
 
-## 👥 Team  
+##  Team  
 **Project Title:** LoRaWAN Indoor Signal Reliability and Path-Loss Modeling  
 **University:** University of Siegen – Erasmus Mundus EMINENT  
 
@@ -217,5 +217,5 @@ python distill_to_tflite.py
 
 ---
 
-📄 **Reference**  
+ **Reference**  
 Obiri, N. M., & Van Laerhoven, K. (2024). *A Comprehensive Data Description for LoRaWAN Path Loss Measurements in an Indoor Office Setting.* IEEE Access. DOI: 10.1109/ACCESS.2024.0429000
